@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import {HeaderComponent } from './header/header.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { TodoComponent } from './todo/todo.component';
 import {DragDropModule} from '@angular/cdk/drag-drop';
@@ -13,8 +13,8 @@ import {MatCardModule} from '@angular/material/card';
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    TodoComponent
+    TodoComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
